@@ -18,7 +18,9 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = local.getProperty("glimpse.applicationId") ?: "io.github.sam404rihan.glimpse"
+        // -Pglimpse.applicationId=… on the command line wins over local.properties (e.g. to build a public release).
+        applicationId = providers.gradleProperty("glimpse.applicationId").orNull
+            ?: local.getProperty("glimpse.applicationId") ?: "io.github.sam404rihan.glimpse"
         minSdk = 30
         targetSdk = 36
         versionCode = 1

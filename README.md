@@ -121,7 +121,7 @@ keyPassword=…
 glimpse.applicationId=com.example.glimpse
 ```
 
-Android keeps an app's data across updates only when the ID and signature match, so this lets you keep updating an existing install.
+Android keeps an app's data across updates only when the ID and signature match, so this lets you keep updating an existing install. A one-off `./gradlew assembleRelease -Pglimpse.applicationId=…` overrides `local.properties`.
 
 </details>
 
