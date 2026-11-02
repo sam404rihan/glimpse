@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Glimpse: the top print slides away and shows a face underneath. Scaled into the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:pivotX="43" android:pivotY="52" android:scaleX="0.85" android:scaleY="0.85"
+        android:translateX="11" android:translateY="2">
+        <!-- the print underneath, with a face on it -->
+        <group>
+            <clip-path android:pathData="M37,35h30a4,4 0,0 1,4 4v36a4,4 0,0 1,-4 4h-30a4,4 0,0 1,-4 -4v-36a4,4 0,0 1,4 -4z" />
+            <path android:fillColor="#FFD9A8" android:pathData="M33,35h38v44h-38z" />
+            <path android:fillColor="#2B2230" android:pathData="M52,46a7,7 0,1 1,-0.01 0z" />
+            <path android:fillColor="#2B2230" android:pathData="M37,80c0,-10 7,-15 15,-15s15,5 15,15z" />
+        </group>
+        <!-- the print on top, tilted away -->
+        <group android:pivotX="40" android:pivotY="70" android:rotation="-16">
+            <path android:fillColor="#FFFFFF"
+                android:pathData="M24,31h30a4,4 0,0 1,4 4v36a4,4 0,0 1,-4 4h-30a4,4 0,0 1,-4 -4v-36a4,4 0,0 1,4 -4z" />
+            <path android:fillColor="#F2E9DF"
+                android:pathData="M26,35h26a2,2 0,0 1,2 2v23a2,2 0,0 1,-2 2h-26a2,2 0,0 1,-2 -2v-23a2,2 0,0 1,2 -2z" />
+        </group>
+    </group>
+</vector>

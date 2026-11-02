@@ -1,0 +1,22 @@
+# Build output
+.gradle/
+.kotlin/
+build/
+*.apk
+*.aab
+
+# Machine-local settings and secrets
+local.properties
+keystore.properties
+*.jks
+*.keystore
+.idea/
+*.iml
+
+# Face models: InsightFace's, non-commercial use only. Built locally by tools/export_models.py.
+/models/
+/app/src/main/assets/models/
+
+# Python
+__pycache__/
+.pytest_cache/

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="112" height="112">
+  <!-- The launcher icon (app/src/main/res/drawable/ic_launcher_*.xml) as SVG, cropped like a launcher would. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF7A59"/>
+      <stop offset="1" stop-color="#E2445C"/>
+    </linearGradient>
+    <clipPath id="tile"><rect x="18" y="18" width="72" height="72" rx="18"/></clipPath>
+    <clipPath id="under"><path d="M37,35h30a4,4 0 0 1 4 4v36a4,4 0 0 1-4 4h-30a4,4 0 0 1-4-4v-36a4,4 0 0 1 4-4z"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect x="0" y="0" width="108" height="108" fill="url(#bg)"/>
+    <g transform="translate(11 2) translate(43 52) scale(.85) translate(-43 -52)">
+      <g clip-path="url(#under)">
+        <path fill="#FFD9A8" d="M33,35h38v44h-38z"/>
+        <circle fill="#2B2230" cx="52" cy="53" r="7"/>
+        <path fill="#2B2230" d="M37,80c0-10 7-15 15-15s15,5 15,15z"/>
+      </g>
+      <g transform="rotate(-16 40 70)">
+        <path fill="#FFFFFF" d="M24,31h30a4,4 0 0 1 4 4v36a4,4 0 0 1-4 4h-30a4,4 0 0 1-4-4v-36a4,4 0 0 1 4-4z"/>
+        <path fill="#F2E9DF" d="M26,35h26a2,2 0 0 1 2 2v23a2,2 0 0 1-2 2h-26a2,2 0 0 1-2-2v-23a2,2 0 0 1 2-2z"/>
+      </g>
+    </g>
+  </g>
+</svg>

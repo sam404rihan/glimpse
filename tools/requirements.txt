@@ -1,0 +1,11 @@
+# Building the phone's models (export_models.py) and checking them (python -m pytest tools)
+numpy
+opencv-python-headless
+pillow
+onnx
+onnxruntime
+pytest
+
+# pc_helper.py ("Find faces on PC"); add torch + onnx2torch to run it on an NVIDIA GPU
+fastapi
+uvicorn

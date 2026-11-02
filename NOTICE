@@ -1,0 +1,20 @@
+Glimpse
+Copyright 2026 sam404rihan
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It uses, but does not include, the following third-party works:
+
+- InsightFace buffalo_m face models (SCRFD-2.5GF detector, ArcFace w600k_r50 recogniser)
+  https://github.com/deepinsight/insightface
+  The models are available for non-commercial research purposes only. They are not part of this
+  repository; tools/export_models.py downloads and converts them. Any APK containing them (including
+  release APKs of Glimpse) is for non-commercial use only.
+
+- ONNX Runtime, Copyright (c) Microsoft Corporation, MIT License
+  https://github.com/microsoft/onnxruntime
+
+- AndroidX and Jetpack Compose, Copyright The Android Open Source Project, Apache License 2.0
+
+Test data: app/src/androidTest/assets/lfw contains 120 photos from Labeled Faces in the Wild
+(http://vis-www.cs.umass.edu/lfw/), used for testing only.
